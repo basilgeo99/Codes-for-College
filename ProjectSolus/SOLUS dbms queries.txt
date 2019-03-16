@@ -1,0 +1,156 @@
+insert into movie values(1001,'Polar','Action',7.2);
+insert into movie values(1101,'Velvet Buzzsaw','Horror',8.1);
+insert into movie values(1201,'The Cloverfield Paradox','Sci-fi',6.8);
+insert into movie values(1202,'Interstellar','Sci-fi',9.1);
+insert into movie values(1301,'Horrible Bosses 2','Comedy',6.5);
+insert into movie values(1102,'The Conjuring','Horror',6.9);
+insert into movie values(1401,'The Notebook','Romance',7.3);
+insert into movie values(1302,'The Hangover','Comedy',7.0);
+insert into movie values(1501,'The Incredibles 2','Animated',7.7);
+insert into movie values(1002,'Ghostbusters','Action',9.0);
+insert into movie values(1701,'The Shawshank Redemption','Drama',9.6);
+insert into movie values(1203,'Coherence','Sci-fi',8.5);
+insert into movie values(1801,'The Jungle Book','Adventure',6.7);
+insert into movie values(1204,'Predestination','Sci-fi',8.7);
+insert into movie values(1502,'The Lion King','Animated',8.9);
+insert into movie values(1103,'The Shining','Horror',8.7);
+insert into movie values(1303,'The Three Stooges','Comedy',6.6);
+insert into movie values(1003,'Rambo','Action',6.9);
+insert into movie values(1601,'Jobs','Biography',6.5);
+insert into movie values(1602,'The Man Who Knew Infinity','Biography',7.5);
+insert into movie values(1004,'Elysium','Action',6.0);
+insert into movie values(1205,'Prometheus','Sci-fi',7.1);
+insert into movie values(1702,'A Few Good Men','Drama',7.7);
+insert into movie values(1503,'Batman: Under The Red Hood','Animated',8.2);
+insert into movie values(1603,'Disaster Artist','Biography',5.9);
+insert into movie values(1504,'How To Train Your Dragon 3: Hidden World','Animated',8.4);
+insert into movie values(1206,'Project Almanac','Sci-fi',7.5);
+insert into movie values(1005,'John Wick 2','Action',8.3);
+insert into movie values(1207,'Ready Player One','Sci-fi',7.8);
+insert into movie values(1703,'Goodwill Hunting','Drama',8.5);
+insert into movie values(1704,'Dead Poets Society','Drama',8.7);
+insert into movie values(1503,'Batman: Under The Red Hood','Animated',8.1);
+insert into movie values(1208,'Vanilla Sky','Sci-fi',8.3);
+
+
+insert into employee values(1001,'Karumuri "Nags" Naga','nags@shroom.com',5550690,'Hyderabad');
+insert into employee values(1002,'Basil "Tulsi" George','vaseeeeeel@shroom.com',5551111,'Cochin');
+insert into employee values(1005,'Hadi "Mooomad" Saheer','haddymoomad@shroom.com',5550911,'Calicut');
+insert into employee values(1003,'Nikhil "Cyril" Niranjan','nincki69minjaj@shroom.com',5550420,'Bengaluru');
+insert into employee values(1004,'Karthik "KKK" Krishna','kuKluxKunt@shroom.com',5550420,'Hyderabad');
+insert into employee values(1006,'Chris "YoungBreezy" Ngoy','youngbreezayy@shroom.com',5551104,'Congo');
+insert into employee values(1107,'Soundarya "Sound" Prasad','sound144@shroom.com',555444,'Bangalore');
+
+
+insert into customer values(9001,'Jacob "Jake" Peralta','jakeyboii@shroom.com',5556969);
+insert into customer values(9002,'Amy "Ames" Santiago','ames1776@shroom.com',5551776);
+insert into customer values(9003,'Annalise "Anna" Keating','keating.a@shroom.com',5552534);
+insert into customer values(9004,'Sebastian "Seb" Clifton','sebadam@shroom.com',5555377);
+insert into customer values(9005,'Takeshi "Ryker" Kovacs','TakiTaki@shroom.com',5558256);
+insert into customer values(9006,'Rachel "Rach" Greene','rach_@shroom.com',5550383);
+insert into customer values(9007,'Philip "phil" Dunphy','therealphil@shroom.com',5552038);
+insert into customer values(9008,'Kevin "Kev" Pearson','kev.pearson@shroom.com',5550123);
+insert into customer values(9009,'Wesley "Wes" Gibbins','wes_kristoph@shroom.com',5550941);
+insert into customer values(9012,'Jeremy "Jerry" Clarkson','jerry.clark@shroom.com',5550654);
+insert into customer values(9011, 'Emiliano "Sizz" Benny','sizz_rl@shroom.com',5550843);
+insert into customer values(9010, 'Mariano "Squishy" Arruda','squishymuf@shroom.com',5550707);
+insert into customer values(9013, 'Dillon "Rizzo" Francis','rizzooooo@shroom.com',5550697);
+
+
+insert into shows values(4001,'09:45','11:10','English');
+insert into shows values(4002,'21:05','23:15','Hindi');
+insert into shows values(4003,'14:25','16:00','Malayalam');
+insert into shows values(4004,'16:35','18:10','English');
+insert into shows values(4005,'11:00','12:45','Tamil');
+insert into shows values(4006,'18:10','19:30','Telugu');
+insert into shows values(4007,'17:50','19:25','Malayalam');
+insert into shows values(4008,'13:35','15:15','Hindi');
+
+
+insert into special_screening values(6001,'The Undercover Cop','Mystery',7.0);
+insert into special_screening values(6002,'Extinction','Sci-fi',6.4);
+insert into special_screening values(6003,'The Titanic','Romance',9.4);
+insert into special_screening values(6004,'Crazy Rich Asians','Comedy',7.3);
+insert into special_screening values(6005,'The Northern Express','Animation',6.3);
+
+
+insert into theatre values(8001,'Rex Cinemas','Mahatma Gandhi Road');
+insert into theatre values(8002,'Orion PVR','New Bel Road');
+insert into theatre values(8003,'Vox, Forum','Koramangala');
+insert into theatre values(8004,'Reel Cinemas','UB City');
+insert into theatre values(8005,'IMAX 4D','Jayanagar');
+insert into theatre values(8006,'Mercato Drive','Frazer Town');
+
+insert into tickets values(3001,320,5,72,'03-22-2019',8002,NULL,NULL,1702,1001);
+insert into tickets values(3002,300,3,54,'03-22-2019',8002,NULL,NULL,1702,1002);
+insert into tickets values(3003,320,3,71,'03-22-2019',8002,NULL,NULL,1702,1001);
+insert into tickets values(3004,420,1,22,'04-22-2019',8003,4002,NULL,NULL,1003);
+insert into tickets values(3005,420,1,43,'04-22-2019',8003,4002,NULL,NULL,1006);
+insert into tickets values(3006,320,1,67,'04-22-2019',8003,4002,NULL,NULL,1004);
+insert into tickets values(3007,420,1,26,'04-22-2019',8003,4002,NULL,NULL,1005);
+insert into tickets values(3008,240,6,22,'07-20-2019',8006,NULL,6004,NULL,1003);
+insert into tickets values(3009,220,1,10,'07-20-2019',8006,NULL,6004,NULL,1005);
+insert into tickets values(3010,250,2,22,'07-20-2019',8006,NULL,6004,NULL,1006);
+
+
+select * from customer;
+
+
+select * from shows;
+where rating>7 and genre='Drama';
+
+drop table movie;
+truncate table movie;
+
+create table movie(
+m_id int PRIMARY KEY,
+m_name varchar(50),
+genre varchar (15),
+rating numeric(2,1));
+
+create table customer(
+c_id int PRIMARY KEY,
+c_name varchar(30),
+email_id varchar (30),
+ph_no int);
+
+create table employee(
+e_id int PRIMARY KEY,
+e_name varchar(30),
+email_id varchar (30),
+ph_no int
+address varchar(30);
+
+
+create table shows(
+s_id int PRIMARY KEY,
+start_time char(5),
+end_time char (5),
+language varchar(15));
+
+drop table special_screening;
+				 
+create table special_screening(
+ss_id int PRIMARY KEY,
+ss_name varchar(30),
+type varchar (10),
+rating numeric(2,1));
+
+create table theatre(
+t_id int PRIMARY KEY,
+t_name varchar(20),
+location varchar (30));
+
+create table tickets(
+t_no int PRIMARY KEY,
+price int,
+hall_no int,
+seat_no int,
+show_date date,
+t_id int references theatre(t_id),
+s_id int ,
+ss_id int ,
+m_id int ,
+e_id int references employee(e_id));
+
+drop table tickets;
