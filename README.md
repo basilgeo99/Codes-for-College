@@ -9,4 +9,5 @@ PROJECT SOLUS PHASE II :
   Include  a login page that can be used to accessing different usernames and tables.
   
 CISCO PACKET TRACER : 
+  Different projects done on Cisco Packet Tracer including simulating a FTP server, a DNS server, a SMTP server, a VLAN and also an IOT smart home automation project.
   
